@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="row">
+<div class="row" style="">
+  <div class="row" >
     <div class="text-center">
       <h2>Welcome to U-Dirty-Rat</h2>
     </div>
@@ -18,39 +18,44 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+
             <div class="row">
-              <label><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" ng-model="vm.userName" name="uname" required>
+              <div class="col-lg-12">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" ng-model="vm.userName" style="width: 100%;" name="uname" required>
+              </div>
+
             </div>
 
             <div class="row">
-              <label><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" ng-model="vm.password" name="psw" required>
+              <div class="col-lg-12">
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" ng-model="vm.password" style="width:100%" name="psw" required>
 
-              <div class="row">
-                <div class="col-lg-4">
-
-                </div>
-                <div class="col-lg-4">
-                  <div class="row">
-                    <button ng-click="vm.logIn()" class="btn btn-success">Login</button>
+                <div class="row">
+                  <div class="col-lg-4">
                   </div>
 
-                  <div class="row">
-                    <button ng-click="vm.register()" class="btn btn-success">Register</button>
+                  <div class="col-lg-4">
+                    <div class="row">
+                      <button ng-click="vm.logIn()" class="btn btn-success" style="width: 100%;">Login</button>
+                    </div>
+                    <div class="row">
+                      <button ng-click="vm.register()" class="btn btn-success" style="width: 100%;">Register</button>
+                    </div>
+
                   </div>
+                  <div class="col-lg-4">
 
-                </div>
-                <div class="col-lg-4">
+                  </div>
+              </div>
 
-                </div>
               </div>
 
             </div>
 
 
-          </div>
+
         </div>
 
         <!--<input type="checkbox" checked="checked"> Remember me-->
