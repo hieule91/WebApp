@@ -9,13 +9,13 @@
    * Controller of the uDirtyRatWebApp
    */
   angular.module('uDirtyRatWebApp')
-    .controller('registrationCtrl', function () {
-
-      var vm = this;
+    .controller('registrationCtrl', function ($scope, $location) {
       this.awesomeThings = [
         'HTML5 Boilerplate',
         'AngularJS'
       ];
+
+        var vm = this;
 
       vm.userName = '';
       vm.password = '';
